@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "previous button clicked!!!", Toast.LENGTH_SHORT).show();
 
             img.setImageResource(R.drawable.mine);
-            textViewOne.setText("I'm Mahbubur Rahman Mahbub, a dedicated and professional web designer with expertise in HTML, CSS, Bootstrap, JavaScript, jQuery, React.js, Vue.js, and more. With over two years of experience in frontend development and a passion for creating stunning web applications, I've successfully completed numerous projects for satisfied clients.\n");
+            textViewOne.setText("My expertise lies in web design, development, customization, and optimization. I specialize in crafting visually appealing and user-friendly websites using the latest technologies like HTML, CSS, Bootstrap, JavaScript, and React.js. Whether you need a new design from scratch, a responsive website, a landing page, or fixes for an existing site, I'm here to help.\n");
         });
 
 
