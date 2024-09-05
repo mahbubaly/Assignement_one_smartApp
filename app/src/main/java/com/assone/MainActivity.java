@@ -2,6 +2,7 @@ package com.assone;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,16 +20,20 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView img = findViewById(R.id.img_cart);
 
+        TextView textViewOne = findViewById(R.id.text_ViewOne);
+
         btnNext.setOnClickListener(v->{
             Toast.makeText(this, "Next button clicked!!!", Toast.LENGTH_SHORT).show();
-            img.setImageResource(R.drawable.mine);
+            img.setImageResource(R.drawable.mine2);
+            textViewOne.setText("I'm Mahbubur Rahman Mahbub, a dedicated and professional web designer with expertise in HTML, CSS, Bootstrap, JavaScript, jQuery, React.js, Vue.js, and more. With over two years of experience in frontend development and a passion for creating stunning web applications, I've successfully completed numerous projects for satisfied clients");
 
         });
 
         btnPrevious.setOnClickListener(v->{
             Toast.makeText(this, "previous button clicked!!!", Toast.LENGTH_SHORT).show();
 
-            img.setImageResource(R.drawable.coverpic);
+            img.setImageResource(R.drawable.mine);
+            textViewOne.setText("I'm Mahbubur Rahman Mahbub, a dedicated and professional web designer with expertise in HTML, CSS, Bootstrap, JavaScript, jQuery, React.js, Vue.js, and more. With over two years of experience in frontend development and a passion for creating stunning web applications, I've successfully completed numerous projects for satisfied clients.\n");
         });
 
 
